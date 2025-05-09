@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American English Idioms Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon3-32x32.png">
+</head>
+<body>
+    <div id="home-page" class="page active">
+        <div class="home-container">
+            <h1>Wanna Master Idioms?</h1>
+            <h2>Take This Quiz & They'll Be a Piece of Cake! 🍰</h2>
+            <p class="subtext">Break a leg!
+            <br> 
+            No, fr don't. We like your legs just the way they are.</p>
+            
+            <div class="difficulty-levels">
+                <h3>Choose Your Challenge:</h3>
+                <div class="level-cards">
+                    <div class="level-card" data-level="easy">
+                        <div class="level-icon">🍪</div>
+                        <h4>Easy Peasy</h4>
+                        <p>Common idioms you might already know</p>
+                        <button onclick="startLevel('easy')">Start Easy Quiz</button>
+                    </div>
+                    
+                    <div class="level-card" data-level="medium">
+                        <div class="level-icon">🍰</div>
+                        <h4>Medium Challenge</h4>
+                        <p>Somewhat figurative idioms</p>
+                        <button onclick="startLevel('medium')">Start Medium Quiz</button>
+                    </div>
+                    
+                    <div class="level-card" data-level="hard">
+                        <div class="level-icon">🌶️</div>
+                        <h4>Hard Mode</h4>
+                        <p>Very idiomatic or cultural references</p>
+                        <button onclick="startLevel('hard')">Start hard Quiz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="quiz-page" class="page">
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
